@@ -8,9 +8,11 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
-    <AboutMe/>
-    <Projects/>
-    <Contacts/>
+    <div id='container'>
+      <Home/>
+      <AboutMe/>
+      <Projects/>
+      <Contacts/>
+    </div>
   </React.StrictMode>,
 )

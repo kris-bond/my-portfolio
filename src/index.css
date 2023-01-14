@@ -2,4 +2,12 @@
   font-family: "Rubik", sans-serif;
   background-color: black;
   color: white;
+  overflow: hidden;
+}
+
+#container {
+  overflow: scroll;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
 }

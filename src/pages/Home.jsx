@@ -3,11 +3,11 @@ import './Home.css'
 function Home() {
 
   return (
-    <div className="Home">
+    <div id="home">
       <p className="line">Kris Bond</p>
-      <p className="line highlight">About Me</p>
-      <p className="line highlight">Projects</p>
-      <p className="line highlight">Contacts</p>
+      <a className="line highlight" href='#about-me'>About Me</a>
+      <a className="line highlight" href='#projects'>Projects</a>
+      <a className="line highlight" href='#contacts'>Contacts</a>
     </div>
   )
 }
