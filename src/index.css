@@ -1,4 +1,4 @@
-:root{
+:root {
   font-family: "Rubik", sans-serif;
   background-color: black;
   color: white;
@@ -10,4 +10,14 @@
   width: 100vw;
   height: 100vh;
   scroll-snap-type: y mandatory;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+h2 {
+  font-size: clamp(2rem, 8vw, 10rem);
 }
