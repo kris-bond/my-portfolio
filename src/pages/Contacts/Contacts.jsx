@@ -1,22 +1,17 @@
 import './Contacts.css'
 
+import {AiOutlineMail, AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
+
 function Contacts() {
 
   return (
     <div id="contacts" className='page'>
       <h2 className='page-header'>Contacts</h2>
-      <form action='mailto:kris4bond@gmail.com' method='post' encType='text/plain'>
-        <label>Name:</label>
-        <input type="text" name="name"></input>
-
-        <label>Email:</label>
-        <input type="text" name="mail"></input>
-
-        <label>Message:</label>
-        <input type="text" name="msg"></input>
-
-        <input type="submit" value="Send"></input>
-      </form>
+      <div className='card-container'>
+        <a href='mailto:kris4bond@gmail.com' className='card'><AiOutlineMail className='icon'/></a>
+        <a href='https://github.com/kris-bond' className='card'><AiFillGithub className='icon'/></a>
+        <a href='https://www.linkedin.com/in/kristofer-bond-95b790a9/' className='card'><AiFillLinkedin className='icon'/></a>
+      </div>
     </div>
   )
 }

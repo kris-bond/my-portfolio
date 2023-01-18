@@ -19,7 +19,7 @@ a {
 /* hover interaction */
 
 .highlight:hover {
-    color: blue;
+    color: var(--clr-hlight);
 }
 
 #home:has(.highlight:hover) .line:not(.highlight:hover) {

@@ -1,7 +1,10 @@
 :root {
   font-family: "Rubik", sans-serif;
-  background-color: black;
-  color: white;
+  --clr-bg: #000000;
+  --clr-txt: #ffffff;
+  --clr-hlight: #0821C2;
+  background-color: var(--clr-bg);
+  color: var(--clr-txt);
   overflow: hidden;
 }
 
@@ -20,4 +23,6 @@
 
 h2 {
   font-size: clamp(2rem, 8vw, 10rem);
+  padding: 20px;
+  margin: 0;
 }
