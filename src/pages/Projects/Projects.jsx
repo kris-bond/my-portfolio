@@ -8,32 +8,27 @@ function Projects() {
     <div id="projects" className='page'>
       <h2 className='page-header'>Projects</h2>
 
-      <div className='projects-container'></div>
+      <div className='page-container'>
 
-      {projects.map((p, i) => {
-            return (
-              <div className='project-card' key={i}></div>
-              // <BlogCard key={i}>
-              // <Img src={p.image} />
-              //   <TitleContent>
-              //     <CardTitle>{p.title}</CardTitle>
-              //     <Hr />
-              //   </TitleContent>
-              //   <CardInfo className="card-info">{p.description}</CardInfo>
-              //   <div>
-              //     <TitleContent>Tags:</TitleContent>
-              //     <TagList>
-              //       {p.tags.map((t, i) => {
-              //         return <Tag key={i}>{t}</Tag>;
-              //       })}
-              //     </TagList>
-              //   </div>
-              //   <UtilityList>
-              //     <ExternalLinks href={p.source}><AiFillGithub/> View Source Code</ExternalLinks>
-              //   </UtilityList>
-              // </BlogCard>
-            );
-          })}
+        <div className='projects-container'>
+
+        {projects.map((p, i) => {
+              return (
+                <div className='project-card' key={i}>
+                  <img className='project-img' src={p.image}></img>
+                  <p className='project-title'>{p.title}</p>
+                  <p className='project-desc'>{p.description}</p>
+                  <p className='project-tags'>
+                    {p.tags.map((t, i) => {
+                      return <li key={i}>{t}</li>;
+                    })}
+                  </p>
+                  <button className='project-link' href={p.source}>View Source Code</button>
+                </div>
+              );
+            })}
+        </div>
+      </div>
     </div>
   )
 }
