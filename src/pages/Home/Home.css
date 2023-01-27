@@ -25,3 +25,14 @@ a {
 #home:has(.highlight:hover) .line:not(.highlight:hover) {
     opacity: 0.2;
 }
+
+/* name effect */
+.name {
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.name:hover {
+    background-color: white;
+    color: black;
+}

@@ -18,9 +18,11 @@
     /* margin-right: 5px; */
     flex-shrink: 0;
     scroll-snap-align: center;
+    background-color: grey;
 }
 
 .project-img {
+    max-height: 220px;
     width: 100%;
     object-fit: cover;
     overflow: hidden;
