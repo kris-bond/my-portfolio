@@ -21,7 +21,7 @@
 @media (max-width:640px) {
     .card-container {
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
         gap: 20px;
     }
 

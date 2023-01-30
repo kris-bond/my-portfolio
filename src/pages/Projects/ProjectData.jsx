@@ -5,7 +5,7 @@ export const projects = [
         description: 'This website is a work in progress where I will be continuously adding and making updates. It was created using Next.JS and is intented to be used as a sandbox for testing ideas.',
         image: 'src//assets/images/portfolio.png',
         tags: ['NextJS', 'React', 'JavaScript'],
-        source: 'https://github.com/kris-bond/portfolio'
+        source: 'https://github.com/kris-bond/my-portfolio'
     },
     {
         id: 1,
