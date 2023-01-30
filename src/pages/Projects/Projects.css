@@ -72,6 +72,10 @@
 
 @media (max-width:640px) {
 
+    .project-card {
+        height: 80%;
+    }
+
     .arrow-icon {
         height: 80%;
     }
