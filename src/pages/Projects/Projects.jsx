@@ -2,6 +2,9 @@ import './Projects.css'
 
 import { projects } from './ProjectData';
 
+import { AiFillGithub } from 'react-icons/ai'
+import { BsFillArrowLeftSquareFill,  BsFillArrowRightSquareFill } from 'react-icons/bs'
+
 function Projects() {
 
   return (
@@ -10,11 +13,16 @@ function Projects() {
 
       <div className='page-container'>
 
-        <div className='projects-container'>
+      <div className='projects-container'>
 
         {projects.map((p, i) => {
-              return (
-                <div className='project-card' key={i}>
+            const nextSilde = i + 1;
+            const nextSlideStr = '#' + nextSilde;
+            const prevSlide = i - 1;
+            const prevSlideStr = '#' + prevSlide;
+            return (
+              <div className='slide-container'>
+                <div id={i} className='project-card' key={i}>
                     <img className='project-img' src={p.image}></img>
                   <p className='project-title'>{p.title}</p>
                   <p className='project-desc'>{p.description}</p>
@@ -23,11 +31,17 @@ function Projects() {
                       return <li key={i}>{t}</li>;
                     })}
                   </p>
-                  <button className='project-link' href={p.source}>View Source Code</button>
+                  <a className='project-link' href={p.source}><AiFillGithub/> View Source Code</a>
                 </div>
-              );
-            })}
-        </div>
+                <div className='slide-arrow'>
+                  <a href={prevSlideStr} className='arrow prev-slide'><BsFillArrowLeftSquareFill className='arrow-icon'/></a>
+                  <a href={nextSlideStr} className='arrow next-slide'><BsFillArrowRightSquareFill className='arrow-icon'/></a>
+                </div>
+              </div>
+            );
+          })}
+      </div>
+      
       </div>
     </div>
   )

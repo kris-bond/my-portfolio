@@ -1,7 +1,13 @@
 .content-container {
     border: 5px solid white;
     border-radius: 20px;
-    margin: 50px;
+    margin: clamp(20px, 1rem, 50px);
+}
+
+.about-me-page-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 p, h3, .langtech-container {
