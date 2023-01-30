@@ -8,22 +8,27 @@
     overflow: auto;
     display: flex;
     scroll-snap-type: x mandatory;
-    height: 70vh;
+    height: 100%;
     width: 300px;
 }
 
 .project-card {
-    height: 65vh;
+    /* clamp(65vh, 100%, 75vh); */
+    min-height: 100%;
     width: 300px;
     /* margin-right: 5px; */
     flex-shrink: 0;
     scroll-snap-align: center;
     background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .project-img {
     max-height: 220px;
-    width: 100%;
+    width: 95%;
+    margin-top: 5px;
     object-fit: cover;
     overflow: hidden;
 }

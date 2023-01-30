@@ -4,6 +4,16 @@
     margin: 50px;
 }
 
-p {
+p, h3, .langtech-container {
     margin: 20px;
+}
+
+.langtech-container {
+    display: flex;
+    gap: 5px;
+}
+
+.icon-logo {
+    width: clamp(20px, 100%, 70px);
+    height: 100%;
 }
