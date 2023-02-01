@@ -31,4 +31,12 @@ export const projects = [
         tags: ['JavaScript', 'API'],
         source: 'https://github.com/kris-bond/football-results-compare'
     },
+    {
+        id: 4,
+        title: 'Color Picker',
+        description: 'A Google Chrome extension that uses Google\'s Eye dropper API to select and save colours.',
+        image: '/images/col-picker.png',
+        tags: ['JavaScript'],
+        source: 'https://github.com/kris-bond/color-picker'
+    },
 ]
