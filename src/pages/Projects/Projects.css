@@ -10,7 +10,11 @@
     display: flex;
     scroll-snap-type: x mandatory;
     height: 100%;
-    width: 500px;
+    width: 601px;
+}
+
+.carousel {
+    display: flex;
 }
 
 .project-card {
