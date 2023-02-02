@@ -9,6 +9,7 @@
     overflow: auto;
     display: flex;
     scroll-snap-type: x mandatory;
+    overflow-y: hidden;
     height: 100%;
     width: 601px;
 }
@@ -78,10 +79,12 @@
 
     .project-card {
         height: 80%;
+        width: 75vw;
     }
 
     .arrow-icon {
         height: 80%;
+        width: 12vw;
     }
 
 }
