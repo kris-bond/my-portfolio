@@ -1,5 +1,7 @@
 import './Home.css'
 
+import {BiSun, BiMoon} from 'react-icons/bi'
+
 function Home() {
 
   return (
@@ -8,8 +10,16 @@ function Home() {
       <a className="line highlight" href='#about-me'>About Me</a>
       <a className="line highlight" href='#projects'>Projects</a>
       <a className="line highlight" href='#contacts'>Contacts</a>
+      <button className="theme-switch" onClick={UpdateTheme}><BiSun/></button>
     </div>
   )
+}
+
+function UpdateTheme() {
+  const root = document.documentElement;
+  // document.querySelector('.theme-switch').textContent = <BiMoon/>;
+  const newTheme = root.className == ('' || 'light') ? 'dark' : 'light';
+  root.className = newTheme;
 }
 
 function HoverEffect(event) {

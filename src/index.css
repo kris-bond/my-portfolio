@@ -1,3 +1,15 @@
+:root.light {
+  --clr-bg: #ffffff;
+  --clr-txt: #000000;
+  --clr-hlight: #0821C2;
+}
+
+:root.dark {
+  --clr-bg: #000000;
+  --clr-txt: #ffffff;
+  --clr-hlight: #0821C2;
+}
+
 :root {
   font-family: "Rubik", sans-serif;
   --clr-bg: #000000;

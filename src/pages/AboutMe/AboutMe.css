@@ -1,5 +1,5 @@
 .content-container {
-    border: 5px solid white;
+    border: 5px solid var(--clr-txt);
     border-radius: 20px;
     margin: clamp(20px, 1rem, 50px);
 }
