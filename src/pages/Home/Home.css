@@ -28,9 +28,6 @@ a {
     justify-content: center;
     align-items: center;
     border: 2px solid black;
-    /* fix for ios safari */
-    -webkit-appearance: none;
-    opacity: 1;
 }
 
 /* hover interaction */
