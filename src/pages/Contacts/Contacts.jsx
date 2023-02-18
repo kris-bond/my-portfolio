@@ -9,7 +9,7 @@ function Contacts() {
     <div id="contacts" className='page'>
       <h2 className='page-header'>Contacts</h2>
       <div className='card-container'>
-        <a className='card' onClick={(event) => copyClipboard()}><AiOutlineMail className='icon'/></a>
+        <a id= 'email-card' className='card' onClick={(event) => copyClipboard()}><AiOutlineMail className='icon'/></a>
         <a href='https://github.com/kris-bond' className='card'><AiFillGithub className='icon'/></a>
         <a href='https://www.linkedin.com/in/kristofer-bond-95b790a9/' className='card'><AiFillLinkedin className='icon'/></a>
       </div>

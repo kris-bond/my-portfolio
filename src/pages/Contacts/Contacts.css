@@ -18,6 +18,10 @@
     height: 100%;
 }
 
+#email-card:hover {
+    cursor: pointer;
+}
+
 @media (max-width:640px) {
     .card-container {
         flex-direction: column;
