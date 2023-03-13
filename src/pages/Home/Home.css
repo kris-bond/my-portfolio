@@ -24,10 +24,11 @@ a {
     width: 2.5rem;
     height: 2.5rem;
     font-size: 2.5rem;
+    font-size: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    color: var(--clr-txt);
 }
 
 /* hover interaction */

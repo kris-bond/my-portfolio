@@ -1,6 +1,7 @@
 import './Home.css'
 
-import {BiSun, BiMoon} from 'react-icons/bi'
+import "@theme-toggles/react/css/DarkSide.css"
+import { DarkSide } from "@theme-toggles/react"
 
 function Home() {
 
@@ -10,14 +11,13 @@ function Home() {
       <a className="line highlight" href='#about-me'>About Me</a>
       <a className="line highlight" href='#projects'>Projects</a>
       <a className="line highlight" href='#contacts'>Contacts</a>
-      <button className="theme-switch" onClick={UpdateTheme}><BiSun/></button>
+      <DarkSide className='theme-switch' onToggle={UpdateTheme} duration={750}  />
     </div>
   )
 }
 
 function UpdateTheme() {
   const root = document.documentElement;
-  // document.querySelector('.theme-switch').textContent = <BiMoon/>;
   const newTheme = root.className == ('' || 'light') ? 'dark' : 'light';
   root.className = newTheme;
 }
