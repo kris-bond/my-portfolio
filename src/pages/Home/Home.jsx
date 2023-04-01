@@ -1,7 +1,5 @@
 import './Home.css'
-
-import "@theme-toggles/react/css/DarkSide.css"
-import { DarkSide } from "@theme-toggles/react"
+import { Within } from "@theme-toggles/react"
 
 function Home() {
 
@@ -11,7 +9,7 @@ function Home() {
       <a className="line highlight" href='#about-me'>About Me</a>
       <a className="line highlight" href='#projects'>Projects</a>
       <a className="line highlight" href='#contacts'>Contacts</a>
-      <DarkSide className='theme-switch' onToggle={UpdateTheme} duration={750}  />
+      <Within className='theme-switch' onToggle={UpdateTheme} duration={750}  />
     </div>
   )
 }
