@@ -16,6 +16,9 @@
 
 .carousel {
     display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .project-card {
@@ -73,6 +76,8 @@
 .arrow-icon {
     width: 50px;
     height: 100%;
+    background-color: var(--clr-bg);
+    position:static;
 }
 
 @media (max-width:640px) {

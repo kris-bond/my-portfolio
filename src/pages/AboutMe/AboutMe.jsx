@@ -12,7 +12,7 @@ function AboutMe() {
       <div className='about-me-page-container'>
         <div className='content-container'>
           <h3>Profile</h3>
-          <p>I am a Full-Stack Engineer with an MSc in Computer Science from the University of Leeds.</p>
+          <p>I am a Senior Software Engineer with an MSc in Computer Science from the University of Leeds.</p>
           <p>I am proficient with Python, Java, JavaScript, HTML & CSS which I use to create tools, apps and websites.</p>
         </div>
         <div className='content-container'>
