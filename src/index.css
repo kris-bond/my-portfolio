@@ -33,6 +33,7 @@
   scroll-snap-align: start;
   display: flex;
   flex-direction: column;
+  overflow: scroll;
 }
 
 h2 {
