@@ -1,12 +1,12 @@
 export const projects = [
-    {
-        id: 0,
-        title: 'Portfolio Website',
-        description: 'This website is a work in progress where I will be continuously adding and making updates. It was created using Next.JS and is intented to be used as a sandbox for testing ideas.',
-        image: '/images/portfolio.png',
-        tags: ['NextJS', 'React', 'JavaScript'],
-        source: 'https://github.com/kris-bond/my-portfolio'
-    },
+    // {
+    //     id: 0,
+    //     title: 'Portfolio Website',
+    //     description: 'This website is a work in progress where I will be continuously adding and making updates. It was created using Next.JS and is intented to be used as a sandbox for testing ideas.',
+    //     image: '/images/portfolio.png',
+    //     tags: ['NextJS', 'React', 'JavaScript'],
+    //     source: 'https://github.com/kris-bond/my-portfolio'
+    // },
     {
         id: 1,
         title: 'Fall Watch App',
@@ -23,14 +23,14 @@ export const projects = [
         tags: ['JavaScript'],
         source: 'https://github.com/kris-bond/snake-js'
     },
-    {
-        id: 3,
-        title: 'Football Results Comparer',
-        description: 'A website that compares the points difference between two seasons of Premier League football team\'s results. Written in JavaScript along with a backend that scrapes results data from Wikipedia and provides the data via an API.',
-        image: '/images/results-compare.png',
-        tags: ['JavaScript', 'API'],
-        source: 'https://github.com/kris-bond/football-results-compare'
-    },
+    // {
+    //     id: 3,
+    //     title: 'Football Results Comparer',
+    //     description: 'A website that compares the points difference between two seasons of Premier League football team\'s results. Written in JavaScript along with a backend that scrapes results data from Wikipedia and provides the data via an API.',
+    //     image: '/images/results-compare.png',
+    //     tags: ['JavaScript', 'API'],
+    //     source: 'https://github.com/kris-bond/football-results-compare'
+    // },
     {
         id: 4,
         title: 'Color Picker',
