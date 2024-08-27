@@ -1,25 +1,27 @@
 .content-container {
-    border: 5px solid var(--clr-txt);
-    border-radius: 20px;
-    margin: clamp(20px, 1rem, 50px);
+  border: 5px solid var(--clr-txt);
+  border-radius: 20px;
+  margin: clamp(20px, 1rem, 50px);
 }
 
 .about-me-page-container {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
-p, h3, .langtech-container {
-    margin: 20px;
+p,
+h3,
+.langtech-container {
+  margin: 20px;
 }
 
 .langtech-container {
-    display: flex;
-    gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 
 .icon-logo {
-    width: clamp(20px, 100%, 70px);
-    height: 100%;
+  width: clamp(20px, 100%, 70px);
+  height: 100%;
 }

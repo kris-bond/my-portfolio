@@ -1,17 +1,28 @@
-import './Home.css'
-import { Within } from "@theme-toggles/react"
+import './Home.css';
+import { Within } from '@theme-toggles/react';
 
 function Home() {
-
   return (
-    <div id="home" className='page'>
-      <h1 className="name" data-value="KRIS BOND" onMouseOver={(event) => HoverEffect(event)}>Kris Bond</h1>
-      <a className="line highlight" href='#about-me'>About Me</a>
-      <a className="line highlight" href='#projects'>Projects</a>
-      <a className="line highlight" href='#contacts'>Contacts</a>
-      <Within className='theme-switch' onToggle={UpdateTheme} duration={750}  />
+    <div id="home" className="page">
+      <h1
+        className="name"
+        data-value="KRIS BOND"
+        onMouseOver={(event) => HoverEffect(event)}
+      >
+        Kris Bond
+      </h1>
+      <a className="line highlight" href="#about-me">
+        About Me
+      </a>
+      <a className="line highlight" href="#projects">
+        Projects
+      </a>
+      <a className="line highlight" href="#contacts">
+        Contacts
+      </a>
+      <Within className="theme-switch" onToggle={UpdateTheme} duration={750} />
     </div>
-  )
+  );
 }
 
 function UpdateTheme() {
@@ -21,7 +32,7 @@ function UpdateTheme() {
 }
 
 function HoverEffect(event) {
-  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
   let interval = null;
   let iteration = 0;
@@ -30,17 +41,17 @@ function HoverEffect(event) {
 
   interval = setInterval(() => {
     event.target.innerText = event.target.innerText
-      .split("")
+      .split('')
       .map((letter, index) => {
-        if(index < iteration) {
+        if (index < iteration) {
           return event.target.dataset.value[index];
         }
 
-        return letters[Math.floor(Math.random() * 26)]
+        return letters[Math.floor(Math.random() * 26)];
       })
-      .join("");
+      .join('');
 
-    if(iteration >= event.target.dataset.value.length){ 
+    if (iteration >= event.target.dataset.value.length) {
       clearInterval(interval);
     }
 
@@ -48,4 +59,4 @@ function HoverEffect(event) {
   }, 35);
 }
 
-export default Home
+export default Home;
