@@ -21,7 +21,8 @@ h3,
   gap: 5px;
 }
 
-.icon-logo {
+.langtech-container svg {
+  filter: url(#blur-and-scale);
   width: clamp(20px, 100%, 70px);
   height: 100%;
 }

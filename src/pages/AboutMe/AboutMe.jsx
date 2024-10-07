@@ -1,20 +1,5 @@
 import './AboutMe.css';
-
-import {
-  SiJavascript,
-  SiPython,
-  SiJava,
-  SiHtml5,
-  SiCss3,
-  SiCsharp,
-  SiDjango,
-  SiSpringboot,
-  SiGit,
-  SiGooglecloud,
-  SiNextdotjs,
-  SiReact,
-  SiGodotengine,
-} from 'react-icons/si';
+import { SVG } from '../../assets/logos/logos';
 
 function AboutMe() {
   return (
@@ -25,33 +10,56 @@ function AboutMe() {
           <h3>Profile</h3>
           <p>
             I am a Senior Software Engineer with an MSc in Computer Science from
-            the University of Leeds.
+            the University of Leeds. I specialize in building scalable
+            applications and automation tools using a wide range of technologies
+            including Java, Python, and JavaScript.
           </p>
           <p>
-            I am proficient with Python, Java, JavaScript, HTML & CSS which I
-            use to create tools, apps and websites.
+            I enjoy working with teams, finding creative solutions, and
+            constantly improving how things are done. My goal is to create
+            user-friendly, reliable software that makes life easier for people
+            and businesses.
           </p>
         </div>
         <div className="content-container">
           <h3>Languages & Technologies</h3>
           <p>Languages</p>
           <div className="langtech-container">
-            <SiJavascript className="icon-logo" />
-            <SiPython className="icon-logo" />
-            <SiJava className="icon-logo" />
-            <SiHtml5 className="icon-logo" />
-            <SiCss3 className="icon-logo" />
-            <SiCsharp className="icon-logo" />
+            <SVG.JavaIcon />
+            <SVG.PythonIcon />
+            <SVG.JavaScriptIcon />
+            <SVG.HTMLIcon />
+            <SVG.CSSIcon />
           </div>
           <p>Technologies</p>
           <div className="langtech-container">
-            <SiGit className="icon-logo" />
-            <SiGooglecloud className="icon-logo" />
-            <SiNextdotjs className="icon-logo" />
-            <SiReact className="icon-logo" />
-            <SiSpringboot className="icon-logo" />
-            <SiGodotengine className="icon-logo" />
+            <SVG.GCPIcon />
+            <SVG.GitIcon />
+            <SVG.DockerIcon />
+            <SVG.JenkinsIcon />
+            <SVG.KubernetesIcon />
+            <SVG.NextJSIcon />
+            <SVG.ReactIcon />
+            <SVG.SpringIcon />
+            <SVG.TerraformIcon />
           </div>
+          <svg style={{ display: 'none' }}>
+            <filter
+              id="blur-and-scale"
+              y="-50%"
+              x="-50%"
+              width="200%"
+              height="200%"
+            >
+              <feGaussianBlur
+                in="SourceGraphic"
+                stdDeviation="20"
+                result="blurred"
+              />
+              <feColorMatrix type="saturate" in="blurred" values="4" />
+              <feComposite in="SourceGraphic" operator="over" />
+            </filter>
+          </svg>
         </div>
       </div>
     </div>
