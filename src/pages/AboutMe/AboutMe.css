@@ -22,7 +22,8 @@ h3,
 }
 
 .langtech-container svg {
-  filter: url(#blur-and-scale);
+  /*filter: url(#blur-and-scale); */
+  filter: none;
   width: clamp(20px, 100%, 70px);
   height: 100%;
   transition: transform 0.3s ease, filter 0.3s ease;
