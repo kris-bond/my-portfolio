@@ -12,6 +12,7 @@ import KubernetesIcon from './kubernetes-icon.svg?react';
 import DockerIcon from './docker-icon.svg?react';
 import SpringIcon from './springio-icon.svg?react';
 import NextJSIcon from './nextjs-icon.svg?react';
+import SQLLiteIcon from './sqlite-icon.svg?react';
 
 export const SVG = {
   JavaIcon,
@@ -28,4 +29,5 @@ export const SVG = {
   DockerIcon,
   SpringIcon,
   NextJSIcon,
+  SQLLiteIcon,
 };

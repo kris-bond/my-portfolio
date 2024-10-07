@@ -25,23 +25,54 @@ function AboutMe() {
           <h3>Languages & Technologies</h3>
           <p>Languages</p>
           <div className="langtech-container">
-            <SVG.JavaIcon />
-            <SVG.PythonIcon />
-            <SVG.JavaScriptIcon />
-            <SVG.HTMLIcon />
-            <SVG.CSSIcon />
+            <div class="svg-container" data-description="Java">
+              <SVG.JavaIcon />
+            </div>
+            <div class="svg-container" data-description="Python">
+              <SVG.PythonIcon />
+            </div>
+            <div class="svg-container" data-description="JavaScript">
+              <SVG.JavaScriptIcon />
+            </div>
+            <div class="svg-container" data-description="HTML">
+              <SVG.HTMLIcon />
+            </div>
+            <div class="svg-container" data-description="CSS">
+              <SVG.CSSIcon />
+            </div>
           </div>
           <p>Technologies</p>
           <div className="langtech-container">
-            <SVG.GCPIcon />
-            <SVG.GitIcon />
-            <SVG.DockerIcon />
-            <SVG.JenkinsIcon />
-            <SVG.KubernetesIcon />
-            <SVG.NextJSIcon />
-            <SVG.ReactIcon />
-            <SVG.SpringIcon />
-            <SVG.TerraformIcon />
+            <div class="svg-container" data-description="GCP">
+              <SVG.GCPIcon />
+            </div>
+            <div class="svg-container" data-description="Git">
+              <SVG.GitIcon />
+            </div>
+            <div class="svg-container" data-description="Docker">
+              <SVG.DockerIcon />
+            </div>
+            <div class="svg-container" data-description="Jenkins">
+              <SVG.JenkinsIcon />
+            </div>
+            <div class="svg-container" data-description="Kubernetes">
+              <SVG.KubernetesIcon />
+            </div>
+            <div class="svg-container" data-description="NextJS">
+              <SVG.NextJSIcon />
+            </div>
+            <div class="svg-container" data-description="React">
+              <SVG.ReactIcon />
+            </div>
+            <div class="svg-container" data-description="Spring">
+              <SVG.SpringIcon />
+            </div>
+            <div class="svg-container" data-description="Terraform">
+              <SVG.TerraformIcon />
+            </div>
+            <div class="svg-container" data-description="SQLLite">
+              <SVG.SQLLiteIcon />
+            </div>
           </div>
           <svg style={{ display: 'none' }}>
             <filter
