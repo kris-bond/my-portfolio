@@ -10,15 +10,15 @@ function AboutMe() {
           <h3>Profile</h3>
           <p>
             I am a Senior Software Engineer with an MSc in Computer Science from
-            the University of Leeds. I specialize in building scalable
+            the University of Leeds. I specialise in building scalable
             applications and automation tools using a wide range of technologies
             including Java, Python, and JavaScript.
           </p>
           <p>
             I enjoy working with teams, finding creative solutions, and
             constantly improving how things are done. My goal is to create
-            user-friendly, reliable software that makes life easier for people
-            and businesses.
+            user-friendly, reliable software solutions that makes life easier
+            for people and businesses.
           </p>
         </div>
         <div className="content-container">
