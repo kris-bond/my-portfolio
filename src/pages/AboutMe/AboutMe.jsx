@@ -23,7 +23,6 @@ function AboutMe() {
         </div>
         <div className="content-container">
           <h3>Languages & Technologies</h3>
-          <p>Languages</p>
           <div className="langtech-container">
             <div class="svg-container" data-description="Java">
               <SVG.JavaIcon />
@@ -40,9 +39,6 @@ function AboutMe() {
             <div class="svg-container" data-description="CSS">
               <SVG.CSSIcon />
             </div>
-          </div>
-          <p>Technologies</p>
-          <div className="langtech-container">
             <div class="svg-container" data-description="GCP">
               <SVG.GCPIcon />
             </div>
