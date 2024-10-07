@@ -47,3 +47,28 @@ h2 {
 body {
   margin: 0;
 }
+
+/* For devices with screens larger than 768px (Desktops) */
+@media (min-width: 768px) {
+  #container {
+    overflow: hidden;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100dvh;
+  }
+
+  #home {
+    width: 50vw;
+    height: 50dvh;
+  }
+
+  .page {
+    width: 100vw;
+    height: 100dvh;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+}
