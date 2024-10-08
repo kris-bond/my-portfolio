@@ -9,6 +9,7 @@
   overflow: auto;
   display: flex;
   scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
   overflow-y: hidden;
   height: 100%;
   width: 601px;
