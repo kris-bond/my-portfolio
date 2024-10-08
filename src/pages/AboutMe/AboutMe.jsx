@@ -4,7 +4,6 @@ import { SVG } from '../../assets/logos/logos';
 function AboutMe() {
   return (
     <div id="about-me" className="page">
-      <h2 className="page-header">About Me</h2>
       <div className="about-me-page-container">
         <div className="content-container">
           <h3>Profile</h3>

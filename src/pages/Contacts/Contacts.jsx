@@ -6,7 +6,6 @@ import { AiOutlineMail, AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 function Contacts() {
   return (
     <div id="contacts" className="page">
-      <h2 className="page-header">Contacts</h2>
       <div className="card-container">
         <a
           id="email-card"

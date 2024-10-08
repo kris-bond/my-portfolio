@@ -17,25 +17,15 @@
   --clr-hlight: #0821c2;
   background-color: var(--clr-bg);
   color: var(--clr-txt);
-  overflow: hidden;
 }
 
 #container {
   overflow: scroll;
-  overflow-x: hidden;
-  width: 100vw;
-  height: 100dvh;
-  scroll-snap-type: y mandatory;
 }
 
 .page {
-  width: 100vw;
-  height: 100dvh;
-  scroll-snap-align: start;
   display: flex;
   flex-direction: column;
-  overflow: scroll;
-  overflow-x: hidden;
 }
 
 h2 {
@@ -49,17 +39,13 @@ body {
 }
 
 /* For devices with screens larger than 768px (Desktops) */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #container {
-    overflow: hidden;
+    overflow: scroll;
     overflow-x: hidden;
     width: 100vw;
     height: 100dvh;
-  }
-
-  #home {
-    width: 50vw;
-    height: 50dvh;
+    scroll-snap-type: y mandatory;
   }
 
   .page {

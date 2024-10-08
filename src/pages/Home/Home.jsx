@@ -11,15 +11,6 @@ function Home() {
       >
         Kris Bond
       </h1>
-      <a className="line highlight" href="#about-me">
-        About Me
-      </a>
-      <a className="line highlight" href="#projects">
-        Projects
-      </a>
-      <a className="line highlight" href="#contacts">
-        Contacts
-      </a>
       <Within className="theme-switch" onToggle={UpdateTheme} duration={750} />
     </div>
   );

@@ -11,8 +11,6 @@ import {
 function Projects() {
   return (
     <div id="projects" className="page">
-      <h2 className="page-header">Projects</h2>
-
       <div className="page-container">
         <div className="projects-container">
           {projects.map((p, i) => {
