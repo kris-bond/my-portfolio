@@ -19,13 +19,8 @@
   color: var(--clr-txt);
 }
 
-#container {
-  overflow: scroll;
-}
-
 .page {
   display: flex;
-  flex-direction: column;
 }
 
 h2 {
