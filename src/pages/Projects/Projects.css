@@ -15,6 +15,10 @@
   width: 601px;
 }
 
+#projects {
+  max-width: 40%;
+}
+
 .carousel {
   display: flex;
   width: 100%;

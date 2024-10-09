@@ -1,7 +1,6 @@
 .about-me-page-container {
   display: flex;
   flex-direction: column;
-  width: 33.33%;
 }
 
 .content-container {
@@ -10,6 +9,10 @@
   margin: clamp(20px, 1rem, 50px);
   flex-basis: 33.33%;
   flex-wrap: wrap;
+}
+
+#about-me {
+  max-width: 40%;
 }
 
 p,

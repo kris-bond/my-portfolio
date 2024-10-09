@@ -27,9 +27,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <div id="container">
       <Home />
-      <AboutMe />
-      <Projects />
-      <Contacts />
+      <div id="content-container">
+        <AboutMe />
+        <Projects />
+        <Contacts />
+      </div>
       <Toaster />
     </div>
   </React.StrictMode>

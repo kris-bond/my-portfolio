@@ -19,6 +19,11 @@
   color: var(--clr-txt);
 }
 
+#content-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .page {
   display: flex;
 }
@@ -33,7 +38,7 @@ body {
   margin: 0;
 }
 
-/* For devices with screens larger than 768px (Desktops) */
+/* For devices with screens smaller than 768px (Mobile) */
 @media (max-width: 768px) {
   #container {
     overflow: scroll;
