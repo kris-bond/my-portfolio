@@ -11,8 +11,11 @@
   scroll-snap-type: x mandatory;
   overscroll-behavior-x: contain;
   overflow-y: hidden;
-  height: 100%;
-  width: 601px;
+  height: 90%;
+  width: 500px;
+  border: 5px solid var(--clr-txt);
+  border-radius: 20px;
+  margin: clamp(20px, 1rem, 50px);
 }
 
 #projects {
@@ -28,7 +31,7 @@
 
 .project-card {
   height: 90%;
-  width: 497px;
+  width: 397px;
   max-width: 96vw;
   max-height: 80vh;
   flex-shrink: 0;
