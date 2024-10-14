@@ -204,17 +204,17 @@
   }
 
   .project-title {
-    font-size: 1rem; /* Smaller font size for titles */
+    font-size: 1rem;
   }
 
   .project-desc {
-    font-size: 0.9rem; /* Smaller font size for descriptions */
-    max-height: 10rem; /* Increases limit */
+    font-size: 0.8rem;
+    max-height: 12rem;
   }
 
   .project-link {
-    padding: 10px; /* Adjust padding for the link */
-    font-size: 0.9rem; /* Smaller font size for the link */
+    padding: 10px;
+    font-size: 0.9rem;
   }
 
   .slider__nav button {

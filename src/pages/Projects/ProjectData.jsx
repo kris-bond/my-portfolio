@@ -11,7 +11,7 @@ export const projects = [
     id: 1,
     title: 'Fall Watch App',
     description:
-      'This project was built as part of my BSc dissertation. Designed for Android Smart Watches to help detect a user falling and responds by sending a message for help. Results found the accuracy of fall detection was 93.24%, with a sensitivity of 86.25% and specificity of 87.5%.',
+      'This project was built as part of my BSc dissertation. Designed for Android Smart Watches to detect a user falling. Results found the accuracy of fall detection was 93.24%, with a sensitivity of 86.25% and specificity of 87.5%.',
     image: '/images/fall-watch.png',
     tags: ['Java'],
     source: 'https://github.com/kris-bond/Fall-Watch-App',
