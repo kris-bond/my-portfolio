@@ -67,3 +67,10 @@ h3,
 .svg-container:hover::after {
   opacity: 1;
 }
+
+/* For devices with screens smaller than 768px (Mobile) */
+@media (max-width: 768px) {
+  #about-me {
+    max-width: 100%;
+  }
+}
