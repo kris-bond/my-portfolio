@@ -150,16 +150,16 @@
 }
 
 .project-tags li {
-  background-color: var(--clr-primary);
-  color: var(--clr-txt);
+  background-color: blue;
+  color: white;
   padding: 5px 10px;
   border-radius: 20px;
   font-size: 0.9rem;
-  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .project-tags li:hover {
-  background-color: var(--clr-secondary);
+  transform: scale(1.05);
 }
 
 .project-link {
