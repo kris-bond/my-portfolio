@@ -68,6 +68,9 @@ function AboutMe() {
             <div class="svg-container" data-description="SQLLite">
               <SVG.SQLLiteIcon />
             </div>
+            <div class="svg-container" data-description="Godot">
+              <SVG.GodotIcon />
+            </div>
           </div>
           <svg style={{ display: 'none' }}>
             <filter
