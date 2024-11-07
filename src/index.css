@@ -1,19 +1,19 @@
 :root.light {
-  --clr-bg: #ffffff;
+  --clr-bg: #f5f5f7;
   --clr-txt: #000000;
   --clr-hlight: #0821c2;
 }
 
 :root.dark {
   --clr-bg: #000000;
-  --clr-txt: #ffffff;
+  --clr-txt: #f5f5f7;
   --clr-hlight: #0821c2;
 }
 
 :root {
   font-family: 'Rubik', sans-serif;
   --clr-bg: #000000;
-  --clr-txt: #ffffff;
+  --clr-txt: #f5f5f7;
   --clr-hlight: #0821c2;
   background-color: var(--clr-bg);
   color: var(--clr-txt);
