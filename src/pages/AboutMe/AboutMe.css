@@ -1,9 +1,11 @@
 .about-me-page-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .content-container {
+  flex: 1;
   border: 5px solid var(--clr-txt);
   border-radius: 20px;
   margin: clamp(20px, 1rem, 50px);

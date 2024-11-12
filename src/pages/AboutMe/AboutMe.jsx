@@ -23,52 +23,52 @@ function AboutMe() {
         <div className="content-container">
           <h3>Languages & Technologies</h3>
           <div className="langtech-container">
-            <div class="svg-container" data-description="Java">
+            <div className="svg-container" data-description="Java">
               <SVG.JavaIcon />
             </div>
-            <div class="svg-container" data-description="Python">
+            <div className="svg-container" data-description="Python">
               <SVG.PythonIcon />
             </div>
-            <div class="svg-container" data-description="JavaScript">
+            <div className="svg-container" data-description="JavaScript">
               <SVG.JavaScriptIcon />
             </div>
-            <div class="svg-container" data-description="HTML">
+            <div className="svg-container" data-description="HTML">
               <SVG.HTMLIcon />
             </div>
-            <div class="svg-container" data-description="CSS">
+            <div className="svg-container" data-description="CSS">
               <SVG.CSSIcon />
             </div>
-            <div class="svg-container" data-description="GCP">
+            <div className="svg-container" data-description="GCP">
               <SVG.GCPIcon />
             </div>
-            <div class="svg-container" data-description="Git">
+            <div className="svg-container" data-description="Git">
               <SVG.GitIcon />
             </div>
-            <div class="svg-container" data-description="Docker">
+            <div className="svg-container" data-description="Docker">
               <SVG.DockerIcon />
             </div>
-            <div class="svg-container" data-description="Jenkins">
+            <div className="svg-container" data-description="Jenkins">
               <SVG.JenkinsIcon />
             </div>
-            <div class="svg-container" data-description="Kubernetes">
+            <div className="svg-container" data-description="Kubernetes">
               <SVG.KubernetesIcon />
             </div>
-            <div class="svg-container" data-description="NextJS">
+            <div className="svg-container" data-description="NextJS">
               <SVG.NextJSIcon />
             </div>
-            <div class="svg-container" data-description="React">
+            <div className="svg-container" data-description="React">
               <SVG.ReactIcon />
             </div>
-            <div class="svg-container" data-description="Spring">
+            <div className="svg-container" data-description="Spring">
               <SVG.SpringIcon />
             </div>
-            <div class="svg-container" data-description="Terraform">
+            <div className="svg-container" data-description="Terraform">
               <SVG.TerraformIcon />
             </div>
-            <div class="svg-container" data-description="SQLLite">
+            <div className="svg-container" data-description="SQLLite">
               <SVG.SQLLiteIcon />
             </div>
-            <div class="svg-container" data-description="Godot">
+            <div className="svg-container" data-description="Godot">
               <SVG.GodotIcon />
             </div>
           </div>

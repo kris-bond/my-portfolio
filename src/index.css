@@ -40,30 +40,8 @@ body {
 
 /* For devices with screens smaller than 768px (Mobile) */
 @media (max-width: 768px) {
-  /*
-  #container {
-    overflow: scroll;
-    overflow-x: hidden;
-    width: 100vw;
-    height: 100dvh;
-    scroll-snap-type: y mandatory;
-  }
-    */
-
   #content-container {
     display: flex;
     flex-direction: column;
   }
-
-  /*
-  .page {
-    width: 100vw;
-    height: 100dvh;
-    scroll-snap-align: start;
-    display: flex;
-    flex-direction: column;
-    overflow: scroll;
-    overflow-x: hidden;
-  }
-    */
 }

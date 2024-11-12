@@ -42,7 +42,7 @@ a {
 .name {
   border-radius: 5px;
   font-weight: 400;
-  margin: 1rem;
+  margin: 0.2rem;
 }
 
 .name:hover {
