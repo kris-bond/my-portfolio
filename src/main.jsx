@@ -8,21 +8,6 @@ import './index.css';
 import '@theme-toggles/react/css/Within.css';
 import { Toaster } from 'react-hot-toast';
 
-setInterval(() => {
-  cards.forEach((card) => {
-    if (!card.style.getPropertyValue(`--color1`)) {
-      card.style.setProperty(
-        `--color1`,
-        `hsl(${Math.random() * 360}, 100%, 50%)`
-      );
-      card.style.setProperty(
-        `--color2`,
-        `hsl(${Math.random() * 360}, 100%, 50%)`
-      );
-    }
-  });
-}, 7000);
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <div id="container">
