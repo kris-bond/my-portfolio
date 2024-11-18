@@ -22,6 +22,7 @@
 #content-container {
   display: flex;
   flex-direction: row;
+  min-height: 80vh;
 }
 
 .page {
@@ -38,8 +39,8 @@ body {
   margin: 0;
 }
 
-/* For devices with screens smaller than 768px (Mobile) */
-@media (max-width: 768px) {
+/* For devices with screens smaller than 1200px */
+@media (max-width: 1200px) {
   #content-container {
     display: flex;
     flex-direction: column;

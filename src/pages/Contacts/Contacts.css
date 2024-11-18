@@ -26,7 +26,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 1200px) {
   .card-container {
     flex-direction: column;
     justify-content: center;
@@ -35,7 +35,7 @@
 }
 
 /* For devices with screens larger than 768px (Desktop) */
-@media (min-width: 768px) {
+@media (min-width: 1201px) {
   .contact-page {
     display: flex;
     flex: 1;
