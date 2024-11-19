@@ -12,6 +12,7 @@
   max-width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 100%;
   border: 5px solid var(--clr-txt);
   border-radius: 20px;
