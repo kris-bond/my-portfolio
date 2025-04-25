@@ -65,7 +65,7 @@ function AboutMe() {
             <div className="svg-container" data-description="Terraform">
               <SVG.TerraformIcon />
             </div>
-            <div className="svg-container" data-description="SQLLite">
+            <div className="svg-container" data-description="SQLite">
               <SVG.SQLLiteIcon />
             </div>
             <div className="svg-container" data-description="Godot">
