@@ -50,9 +50,6 @@ function AboutMe() {
             <div className="svg-container" data-description="Jenkins">
               <SVG.JenkinsIcon />
             </div>
-            <div className="svg-container" data-description="Kubernetes">
-              <SVG.KubernetesIcon />
-            </div>
             <div className="svg-container" data-description="NextJS">
               <SVG.NextJSIcon />
             </div>
@@ -61,9 +58,6 @@ function AboutMe() {
             </div>
             <div className="svg-container" data-description="Spring">
               <SVG.SpringIcon />
-            </div>
-            <div className="svg-container" data-description="Terraform">
-              <SVG.TerraformIcon />
             </div>
             <div className="svg-container" data-description="SQLite">
               <SVG.SQLLiteIcon />
